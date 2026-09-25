@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Get backend API base URL from environment variable
 // In Vite, environment variables must start with VITE_
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || "https://contact-manager-backend-plum.vercel.app/";
 
 // Create an Axios instance with base configuration
 const api = axios.create({
